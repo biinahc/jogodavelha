@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to bottom, #E0BBE4, #95E0E8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pagina {
+    text-align: center;
+}
+
+#paginaInicial {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.celula {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: white;
+}
+
+.celula:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="paginaInicial" class="pagina">
+        <h2>Jogo da Velha</h2> 
+        <label for="jogador1">Player (X)🎮:</label>
+        <input type="text" id="jogador1" value="Jogador 1">
+        <label for="jogador2"> Player (O)🎮:</label>
+        <input type="text" id="jogador2" value="Jogador 2"> <br>
+
+        <button id="iniciarJogo">Iniciar Jogo 👌</button>
+    </div>
+    <div id="tabuleiroJogo" class="pagina" style="display: none;">
+        <div class="tabuleiro">
+            <div class="celula" data-index="0"></div>
+            <div class="celula" data-index="1"></div>
+            <div class="celula" data-index="2"></div>
+            <div class="celula" data-index="3"></div>
+            <div class="celula" data-index="4"></div>
+            <div class="celula" data-index="5"></div>
+            <div class="celula" data-index="6"></div>
+            <div class="celula" data-index="7"></div>
+            <div class="celula" data-index="8"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
